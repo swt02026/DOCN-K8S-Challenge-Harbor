@@ -6,8 +6,8 @@
 2. Download kubeconfig file.
 
 ## Local Machine
-1. Deploying Harbor to DigitalOcean, with kubeconfig file.
-2. Updating Harbor's Registry table in PostgreSQL.
+1. Deploying Harbor to DigitalOcean, with kubeconfig file.(harbor_helm.sh)
+2. Updating Harbor's Registry table in PostgreSQL.(update_table.sh)
 
 ## Docker Client
 1. Setting Registry from Harbor
