@@ -6,10 +6,11 @@
 2. Download kubeconfig file.
 
 ## Local Machine
-1. Deploying Harbor to DigitalOcean, with kubeconfig file.(harbor_helm.sh)
-2. Updating Harbor's Registry table in PostgreSQL.(update_table.sh)
+1. Install kubenetes client(Rancher Desktop)
+2. Deploying Harbor to DigitalOcean, with kubeconfig file.(harbor_helm.sh)
+3. Updating Harbor's Registry table in PostgreSQL.(update_table.sh)
 
-## Docker Client
+## Nerdctl Client
 1. Setting Registry from Harbor
 2. Push image to Harbor
 3. Pull image from Harbor
