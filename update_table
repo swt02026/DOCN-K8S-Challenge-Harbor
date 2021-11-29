@@ -1,0 +1,4 @@
+# get database pod name
+kubectl  --kubeconfig=<kubeconfig from portal> get pod
+# update table
+kubectl  --kubeconfig=<kubeconfig from portal> exec -it  -- psql  -U postgres -d registry -c 'update harbor_user set password_version='sha1' where user_id=1;'
